@@ -32,11 +32,70 @@
 </td>
 </tr>
 
+     <tr>
+        <td> <hr>
+          <table border="0" width="100%">
+            <tr><td colspan="4" align="center" style="font-style: italic">SPIE Proceedings Vol. 10751, Optics and Photonics for Information Processing XII, 107510F (2018)</td></tr>
+            <tr><td colspan="4" align="center"><h1>Learning and estimating whole sky visible, VNIR, SWIR radiance distributions from a commercial camera</h1></td></tr>
+            <tr>
+              <td align="center">
+                <a href="https://joe.delrocco.org/">Joseph Del Rocco</a>,&nbsp;&nbsp;  
+                Charles Brandon Patterson,&nbsp;&nbsp; 
+                Hassen Dhrif, &nbsp;&nbsp;
+                and &nbsp;<a href="http://www.josephkider.com/">Joseph T. Kider Jr.</a>,
+            </tr>
+            <tr><td colspan="4" align="center"><a href="https://www.ist.ucf.edu/" target="_blank">School of Modeling, Simulation, and Training,&nbsp;&nbsp;  University of Central Florida</a></tr>
+          </table>
+        </td>
+      </tr>
+
+
+   <tr>
+        <td>
+          <p>
+            <center>
+              <img src="teaser2.png" width=100%>
+            </center>
+            <i>
+A chart showing our estimate of sky radiance distribution curves between 350-2500nm from images captured with a digital camera. (Left) We use measurements from a commercial digital camera and a sky scanning spectroradiometer to train machine learning algorithms. (Right) We then utilize this ML model to take new sky images and produce the whole sky spectral illumination in real-time. 
+           </i>
+          </p>
+        
+
+
+<h2>Abstract</h2>
+This work proposes estimating sky radiance distribution curves between 350-2500nm from images captured with a hemispherical digital camera. A novel hardware system simultaneously captured spectral, spatial, and temporal information to acquire accurate physical measurements of the solar/skydome radiance variation. To achieve this goal, we use a custom-built spectral radiance measurement scanner to measure the directional spectral radiance, a pyranometer to measure the irradiance of the entire hemisphere, and a commercial digital camera to capture high-dynamic range (HDR) hemispherical imagery of the sky. We use the measurements obtained from a commercially available digital camera and correlating spectroradiometer measurements to train machine learning (ML) models to estimate whole sky full-spectrum radiance distributions (VIS, VNIR, and SWIR) from a low dimensional RGB input. We train clear, cloudy, and mixed sky models, and cross-validate the estimated radiance distributions with ground-truth data. We highlight important measured and engineered ML features, and we present useful feature engineering techniques employed to minimize model estimation error. Additional contributions of this work include the code for all ML models and experiments, a dataset of all-sky HDR captures with correlating spectroradiometer measurements captured 453 times over 16 days, and an open-source, crossplatform, interactive viewer used to visualize photometric and radiometric data side by side.
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h2>Materials for Download</h2>
+          <table border="0" width="100%">
+            <tr>
+              <td align="left">
+                <ul>
+                  <li><a href="https://spie.org/Publications/Proceedings/Paper/10.1117/12.2321295?SSO=1"><B>Paper (Official Publisher's Version)</B></a>, (External SPIE Link))</li>
+                  <li><a href="https://github.com/spectralskylight/spectralskyviewer"><B>Spectral Sky data viewer</B></a>, CODE (GitHub)</li>
+                  <li><a href="https://github.com/spectralskylight/RadianceEstimationData"><B>Spectral Sky data </B></a>, Data (600 mb)</li>
+
+                </ul>
+                <BR>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+
+
+
+
 
      <tr>
         <td> <hr>
           <table border="0" width="100%">
-            <tr><td colspan="4" align="center" style="font-style: italic">ACM TOG 33(6) - Proceedings of ACM SIGGRAPH ASIA 2014</td></tr>
+            <tr><td colspan="4" align="center" style="font-style: italic">ACM TOG 33(6) - Proceedings of ACM SIGGRAPH ASIA (2014)</td></tr>
             <tr><td colspan="4" align="center"><h1>A Framework for the Experimental Comparison of Solar and Skydome Illumination</h1></td></tr>
             <tr>
               <td align="center">
@@ -58,7 +117,7 @@
               <img src="teaser.png" width=100%>
             </center>
             <i>
-A chart showing solar/skydome spectral radiances and comparisons with state-of-the-art simulation models. (a) Our custom built solar- skydome scanner, (b) relative differences between state-of-the-art simulation models and our measured samples over the hemisphere, (c) example of sample points and captured sky imagery, and (d) spectral radiance curves for different sample points in (c)..
+A chart showing solar/skydome spectral radiances and comparisons with state-of-the-art simulation models. (a) Our custom built solar- skydome scanner, (b) relative differences between state-of-the-art simulation models and our measured samples over the hemisphere, (c) example of sample points and captured sky imagery, and (d) spectral radiance curves for different sample points in (c).
            </i>
           </p>
         
@@ -79,7 +138,7 @@ To obtain baseline data of this time-dependent anisotropic light source, we desi
               <td align="left">
                 <ul>
                   <li><a href="Kider2014.pdf"><B>Paper (Author's Version)</B></a>, PDF (30 MB)</li>
-                  <li><a href="Kider2014.pdf"><B>Paper (Official Publisher's Version)</B></a>, (External ACM Link))</li>
+                  <li><a href="https://dl.acm.org/doi/abs/10.1145/2661229.2661259"><B>Paper (Official Publisher's Version)</B></a>, (External ACM Link))</li>
                   <li><a href="Kider2014Supplement.pdf"><B>Supplemental Document</B></a>, PDF (46 MB)</li>
                 </ul>
               </td>
